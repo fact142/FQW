@@ -7,6 +7,7 @@ export const AuthInput = ({ value, onChange, placeholder }) => {
       onChange={onChange}
       type="text"
       placeholder={placeholder}
+      data-testid="form-input"
     />
   );
 };

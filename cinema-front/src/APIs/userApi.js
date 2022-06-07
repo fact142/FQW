@@ -35,3 +35,10 @@ export const  auth = async () => {
     { method: 'GET', headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } });
   return response.json();
 };
+
+export const  getUsers = async () => {
+  const response = await fetch(`${baseURL}/user`,
+    { method: 'GET' });
+  return response.json();
+};
+

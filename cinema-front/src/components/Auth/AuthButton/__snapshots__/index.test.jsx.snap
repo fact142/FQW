@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormButton component should render correctly 1`] = `
+<button
+  className="button"
+>
+  test text
+</button>
+`;

@@ -1,0 +1,8 @@
+.userFrom {
+    border: solid #ffb8c6 2px;
+    margin: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

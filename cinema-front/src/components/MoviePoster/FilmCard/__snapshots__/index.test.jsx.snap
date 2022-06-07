@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePassword form should renders correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="description"
+  >
+    <div
+      className="title"
+    >
+      11
+    </div>
+    <div
+      className="info"
+    >
+      , 
+      2022
+    </div>
+    <div
+      className="info"
+    >
+      111
+       мин
+    </div>
+  </div>
+  <button
+    className="ant-btn ant-btn-default button"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      Расписание
+    </span>
+  </button>
+</div>
+`;

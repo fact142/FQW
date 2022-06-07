@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.dateHeader{
+    width: 50%;
+    height: 100%;
+}
+.timeHeader{
+    width: auto;
+}

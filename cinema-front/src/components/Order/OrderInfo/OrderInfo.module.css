@@ -1,0 +1,23 @@
+.orderInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+}
+.orderHeader{
+    margin: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.orderButton{
+    width: 50%;
+    margin: 10px;
+    background-color: #ffb8c6;
+}
+
+.orderButtonDisabled{
+    width: 50%;
+    margin: 10px;
+    pointer-events: none;
+}

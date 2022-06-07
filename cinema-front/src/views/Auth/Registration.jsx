@@ -1,12 +1,11 @@
 import * as React from 'react';
 import AuthForm from '../../components/Auth/AuthForm'
-import { AuthInput } from '../../components/Auth/AuthInput';
+import { AuthInput } from '../../components/Auth/AuthInput/index';
 import { useState } from 'react';
-import { AuthButton } from '../../components/Auth/AuthButton';
+import { AuthButton } from '../../components/Auth/AuthButton/index';
 import styles from './Auth.module.css'
 import { useDispatch } from 'react-redux';
-import { login, signup } from '../../store/actions/userAction';
-import { signUp } from '../../APIs/userApi';
+import { signup } from '../../store/actions/userAction';
 
 export const Registration = () => {
   const [username, setUsername] = useState('')

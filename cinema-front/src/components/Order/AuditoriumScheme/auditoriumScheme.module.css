@@ -1,0 +1,53 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    margin: 20px;
+    background-color: #c8c7c7;
+}
+
+.classInfo{
+    border-bottom: 2px solid black;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.seats{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat{
+    background-color: #ffb8c6;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.seatActive{
+    background-color: #ffb8c6;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disabledSeat{
+    pointer-events: none;
+    background-color: #9c9c9c;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
